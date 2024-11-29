@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Animasi Confetti -->
+        <div class="confetti">
+            <img src="assets/confetti.gif" alt="Confetti">
+        </div>
+
+        <!-- Judul dan Kue -->
+        <h1 class="title">Selamat Ulang Tahun Aksal Fahreza, Sayangkuuu Tercinta ! 🎉</h1>
+        <img src="assets/cake.png" alt="Kue Ulang Tahun" class="cake">
+
+        <!-- Pesan Ulang Tahun -->
+        <p class="message"> 
+            Selamat Bertambah Umur Ya Sayang, Udah 21 Tahun Nih! ❤️,
+            btw ayang musiknya diputerin dulu ya sebelum baca pesan aku, wkwkwk Love You Moree Sayangg
+        </p>
+
+        <!-- Tombol Menu -->
+        <div class="menu-buttons">
+            <button class="menu-btn" onclick="showDoa()">Do'a Aku Untuk Sayang</button>
+            <button class="menu-btn" onclick="showThankYou()">Sayang balesnya langsung disini, okey</button>
+            <button class="menu-btn" onclick="playMusic()">Putar Musik</button>
+        </div>
+
+        <!-- Konten Dinamis -->
+        <div class="dynamic-content" id="dynamic-content"></div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="background-music" src="assets/background.mp3" loop></audio>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
